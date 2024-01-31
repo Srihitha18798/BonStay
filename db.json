@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Srihitha",
+      "address": "Hyderabad",
+      "phoneNo": "1234567890",
+      "email": "sri@gmail.com",
+      "password": "tadiparthi"
+    },
+    {
+      "name": "Setna",
+      "address": "Bangalore",
+      "phoneNo": "1234567890",
+      "email": "setna@gmail.com",
+      "password": "Setna@123",
+      "id": 2
+    },
+    {
+      "name": "Sera",
+      "address": "bangalore",
+      "phoneNo": "1234567890",
+      "email": "sera@gmail.com",
+      "password": "Sera@1234",
+      "id": 3
+    },
+    {
+      "name": "Daisy",
+      "address": "Bangalore",
+      "phoneNo": "1234567890",
+      "email": "daisy@gmail.com",
+      "password": "Daisy@123",
+      "id": 4
+    },
+    {
+      "name": "Harsha",
+      "address": "Hyderabad",
+      "phoneNo": "1234567890",
+      "email": "sri@gmail.com",
+      "password": "tadiparthi",
+      "id": 5
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "hotelName": "Paradise Stay",
+      "city": "Bangalore",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 9090909090,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "2.jpg",
+      "reviews": [
+        "Good Accomodation",
+        "Best place to relax with friends and family",
+        "The best place to chill with friends. ",
+        "The best place I ever visited.",
+        "Good Stay",
+        "Nice view"
+      ]
+    },
+    {
+      "id": 2,
+      "hotelName": "Hill Palace",
+      "city": "Kochi",
+      "description": "A cool place to relax at Lake side",
+      "amenities": "Homely Food, Sea Food, Children's Park, Boating",
+      "phoneNo": 9191919191,
+      "address": "90/1A, Kochi, Kerala",
+      "imageUrl": "3.jpg",
+      "reviews": [
+        "Good Stay",
+        "Nice view"
+      ]
+    },
+    {
+      "id": 3,
+      "hotelName": "Monsoon Stay",
+      "city": "Chennai",
+      "description": "A luxurious but affordable stay as in your home",
+      "amenities": "24 hr Homely Food, Security, Children's Park",
+      "phoneNo": 9292929292,
+      "address": "100/1A, Chennai, Tamil Nadu",
+      "imageUrl": "4.jpg",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "hotelName": "Galaxy Paradise",
+      "city": "Mumbai",
+      "description": "An affordable family stay spot at the 'City' heart",
+      "amenities": "24 hr Homely Food, Swimming Pool, Security",
+      "phoneNo": 9393939393,
+      "address": "190/1B, Mumbai, Maharastra",
+      "imageUrl": "5.jpg",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "hotelName": "Home Stay",
+      "city": "Hyderabad",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 9090909090,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "6.jpg",
+      "reviews": [
+        "Good Accomodation",
+        "Best place to relax with friends and family",
+        "The best place to chill with friends. ",
+        "The best place I ever visited."
+      ]
+    },
+    {
+      "id": 6,
+      "hotelName": "Mountain View Resorts",
+      "city": "Delhi",
+      "description": "A home to relax at the 'city' peek with all the facilities near you",
+      "amenities": "Different Cuisine Food, Swimming Pool, Self Cooking Station",
+      "phoneNo": 9090909090,
+      "address": "120/1C, Bangalore, Karnataka",
+      "imageUrl": "7.jpg",
+      "reviews": [
+        "Good Accomodation",
+        "Best place to relax with friends and family",
+        "The best place to chill with friends. ",
+        "The best place I ever visited."
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "startDate": "2023-12-01",
+      "endDate": "2023-12-02",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelName": "Paradise Stay",
+      "hotelId": 1,
+      "userId": 1
+    },
+    {
+      "startDate": "2020-09-23",
+      "endDate": "2020-09-24",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 1,
+      "id": 2,
+      "bookingId": "2"
+    },
+    {
+      "startDate": "2020-09-30",
+      "endDate": "2020-10-01",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "startDate": "2020-10-01",
+      "endDate": "2020-10-02",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 2,
+      "id": 4,
+      "bookingId": "4"
+    },
+    {
+      "startDate": "2020-09-25",
+      "endDate": "2020-09-26",
+      "noOfPersons": 1,
+      "noOfRooms": 1,
+      "typeOfRoom": "AC",
+      "hotelId": 2,
+      "hotelName": "Hill Palace",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "startDate": "2023-12-01",
+      "endDate": "2023-12-02",
+      "noOfPersons": "2",
+      "noOfRooms": "1",
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "startDate": "2023-11-23",
+      "endDate": "2023-11-25",
+      "noOfPersons": "2",
+      "noOfRooms": "2",
+      "typeOfRoom": "AC",
+      "hotelId": 1,
+      "hotelName": "Paradise Stay",
+      "userId": 5,
+      "id": 7
+    },
+    {
+      "startDate": "2023-12-27",
+      "endDate": "2024-01-17",
+      "noOfPersons": "3",
+      "noOfRooms": "3",
+      "typeOfRoom": "NON-AC",
+      "hotelId": 5,
+      "hotelName": "Home Stay",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "startDate": "2023-12-08",
+      "endDate": "2023-12-09",
+      "noOfPersons": "2",
+      "noOfRooms": "1",
+      "typeOfRoom": "NON-AC",
+      "hotelId": 4,
+      "hotelName": "Galaxy Paradise",
+      "userId": 5,
+      "id": 9
+    },
+    {
+      "startDate": "2023-12-06",
+      "endDate": "2023-12-06",
+      "noOfPersons": "1",
+      "noOfRooms": "1",
+      "typeOfRoom": "",
+      "hotelId": 4,
+      "hotelName": "Galaxy Paradise",
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "startDate": "2023-11-24",
+      "endDate": "2023-11-25",
+      "noOfPersons": "3",
+      "noOfRooms": "0",
+      "typeOfRoom": "AC",
+      "hotelId": 5,
+      "hotelName": "Home Stay",
+      "userId": 5,
+      "id": 11
+    },
+    {
+      "startDate": "2023-11-21",
+      "endDate": "2023-11-22",
+      "noOfPersons": "1",
+      "noOfRooms": "2",
+      "typeOfRoom": "",
+      "hotelId": 4,
+      "hotelName": "Galaxy Paradise",
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "startDate": "2023-12-29",
+      "endDate": "2024-01-01",
+      "noOfPersons": "2",
+      "noOfRooms": "0",
+      "typeOfRoom": "NON-AC",
+      "hotelId": 4,
+      "hotelName": "Galaxy Paradise",
+      "userId": 1,
+      "id": 13
+    }
+  ]
+}

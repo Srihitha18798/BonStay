@@ -1,38 +1,140 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(R.jpg);
+  background-size: cover;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.register-container {
+  background-color: #ebe7e7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  display: flex;
+  padding: 10px;
+  max-width: 600px;
+  width: 100%;
+  color: black;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-container {
+  background-color: #ebe7e7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  width: 300px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  padding-right: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-title {
+  padding-left: 50px;
+  color: #88685e;
+  font-family: "Snell Roundhand";
+  font-style: italic;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side img {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-side {
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.register-form {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-container {
+  background-color: #ebe7e7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  width: 300px;
+  color: black;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 500px;
+  padding-right: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.booking-title {
+  padding-left: 60px;
+  color: #88685e;
+  font-family: "Snell Roundhand";
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-container {
+  background-color: #ebe7e7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  width: 600px;
+  height: 280px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  padding-right: 50px;
+}
+
+.review-title {
+  padding-left: 60px;
+  color: #88685e;
+  font-family: "Snell Roundhand";
+  font-style: italic;
+}
+
+.view-review-container {
+  background-color: #ebe7e7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 500px;
+  padding-right: 50px;
+  height: 100%;
+}
+
+.view-review-title {
+  padding-left: 30px;
+  color: #88685e;
+  font-family: "Snell Roundhand";
+  font-style: italic;
 }
